@@ -1,0 +1,372 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+}
+
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+.lupa{
+    width: 20px;
+    position:relative;
+    top:5px;
+}
+.buscar{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.hamburguer-button {
+    background-color: #03264C;
+    color: aliceblue;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+
+.logo {
+    width: 200px
+}
+
+.copy-header {
+    font-weight: 400;
+    text-align: center
+}
+
+.main-navbar {
+    display: none;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+h1{
+    background-color: #ebebeb;
+    color:#666;
+    text-align:left;
+    margin:0;
+    padding: 8px 15px;
+}
+.caja{
+    width: 100%;
+    border:solid 10px #ebebeb;
+    border-top: none;
+    
+}
+.bold {
+    padding-left: 15px;
+    font-weight: bold;
+}
+.gris{
+    color:#666;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.verde{
+    color:#39b54a;
+    font-weight: 600;
+    padding-left: 15px;
+}
+.producto{
+    display: block;
+    padding-top: 10px ;
+    width: 300px;
+    margin:0 15px;
+}
+.car{
+    position: relative;
+    top:15px;
+    left: 16px;
+    width:60px;
+}
+
+/* .create-form{
+    padding: 20px 15px;
+}
+.banner{ */
+    /* border: 1px solid #000; */
+    /* padding: 15px 15px;
+    width: 100%;
+}
+.banner img{
+width: 100%;
+} */
+/* footer */
+
+.ajustesection{
+    text-align: center;
+    padding-top: 40px;
+    color:#666; 
+}
+
+.parrafo-footer {
+    margin:0px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+h2{
+    margin:0px;
+}
+
+.caja{
+    width: 100%;
+    border:solid 10px #ebebeb;
+    border-top: none;
+}
+
+.icono{
+    width:2em;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 1.3rem;
+}
+
+.copyrigth{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .main-header-top-bar {
+        /* border:dotted 2px red; */
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lupa{
+        width: 23px;
+        height: 23px;
+        position:relative;
+        top:20px;
+        
+    }
+    .buscar{
+        margin-top: 15px;
+        height: 30px;
+        margin-left:0;
+        width: 200px;
+    }
+    .copy-header {
+        max-width: 350px;
+        text-align: right;
+    }
+
+    .hamburguer-button {
+        display: none;
+    }
+
+    .main-navbar {
+        /* border:dotted 2px red; */
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .main-navbar ul {
+        display: flex;
+    }
+
+    .main-navbar li {
+        margin: 0 5px;
+    }
+    .container{
+        display: flex;
+        justify-content:space-between;
+    }
+    .bold {
+        padding-left: 15px;
+        font-weight: bold;
+    }
+    
+    .verde{
+        padding-left: 15px;
+    }
+    
+    .gris{
+        padding-left: 15px;
+    }
+    
+    .producto{
+        /* display: block;
+        margin: auto; */
+        display: block;
+    padding-top: 10px ;
+    width: 200px;
+    margin:10px 15px;
+    }
+    
+    .acomdar{
+        padding-top: 1px;
+    }
+    
+    .caja{
+        width: 33%;
+        border:solid 10px #ebebeb;
+        border-top: none;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    
+    .ajusteh1{
+        padding-top: 43px;
+        text-align: center;
+        
+    }
+    
+    .bajar{
+        padding-top: 115
+        px;
+    }
+    
+    .imagen1{
+        width:124px;
+    }
+    
+    .imagen3{
+        width:180px;
+    }
+    
+    .acomodar2{
+        padding-top: 15px;
+    }
+    
+    .icono{
+        width:3.5em;
+        margin-bottom: 10px;
+    }
+    
+    .parrafo-footer {
+        padding-right: 120px;
+        padding-left: 120px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .main-header-top-bar, .main-navbar {
+        /* border:dotted 2px red; */
+        margin: auto;
+        max-width: 1200px;
+        /* border: olive solid 5px;*/
+    }
+        .main-header-top-bar {
+            align-items: center;
+        }
+   
+    .logo {
+        width: 250px;
+    }
+    .buscar{
+    
+        margin-top: 5px;
+        height: 35px;
+        width: 280px;
+    }
+    .lupa{
+        width: 33px;
+        height: 33px;
+        position:relative;
+        top:5px;  
+    }
+
+
+        
+    .main-navbar{
+        /* border:dotted 2px red; */
+        display:flex;
+        justify-content: space-between;
+    }
+
+    
+
+    .copy-header {
+        margin: 0;
+        max-width: none;
+        font-size: 23px;
+        font-weight: 400;
+    }
+
+    .main-navbar {
+        margin-top: 30px;
+    }
+
+    .main-navbar li {
+        margin: 0 15px;
+    }
+
+    .main-navbar a {
+        font-size: 25px;
+    }
+    .main-header{
+        padding: 50px;
+          }
+          .ajusteh1{
+            padding-top: 5px;
+            
+        }
+        .imagen1{
+            width:180px;
+        }
+        
+        #bajartamaño {
+            display: block;
+            width: 310px;
+            margin: auto;
+            padding-top: 30px;
+        }
+        .imagen3{
+            width:280px;
+        }
+        /* footer */
+
+        .footerdisplay{
+            display:flex; 
+            flex-direction:wrap; 
+        }
+        .parrafo-footer {
+            padding-right: 0px;
+            padding-left: 0px;
+            font-size: 18px;
+        } 
+        .ajustesection{
+           margin:30px;
+        }
+        .copyrigth{
+            text-align: center;
+            font-size: 18px;
+            padding-bottom: 10px;
+        }
+
+}
